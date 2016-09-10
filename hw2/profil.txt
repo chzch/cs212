@@ -1,0 +1,65 @@
+lambda A, B: ((1*A) + (1*B) == (1*A+10*B)) and (B > 0)
+lambda Y, M, E, U, O: ((1*U+10*O+100*Y) == (1*E+10*M)**2) and (Y > 0) and (M > 0)
+lambda X: ((1*X) / (1*X) == (1*X)) 
+         541 function calls (530 primitive calls) in 0.003 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        3    0.000    0.000    0.001    0.000 no_leading_zeros.py:13(compile_formula)
+        3    0.000    0.000    0.000    0.000 no_leading_zeros.py:23(<lambda>)
+       19    0.000    0.000    0.000    0.000 no_leading_zeros.py:33(compile_word)
+        3    0.002    0.001    0.005    0.002 no_leading_zeros.py:44(faster_solve)
+        1    0.000    0.000    0.005    0.005 no_leading_zeros.py:57(test)
+        1    0.000    0.000    0.005    0.005 no_leading_zeros.py:9(<module>)
+        3    0.000    0.000    0.000    0.000 re.py:164(split)
+        6    0.000    0.000    0.000    0.000 re.py:169(findall)
+        9    0.000    0.000    0.001    0.000 re.py:226(_compile)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:178(_compile_charset)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:207(_optimize_charset)
+       16    0.000    0.000    0.000    0.000 sre_compile.py:24(_identityfunction)
+      6/3    0.000    0.000    0.000    0.000 sre_compile.py:32(_compile)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:354(_simple)
+        3    0.000    0.000    0.000    0.000 sre_compile.py:361(_compile_info)
+        6    0.000    0.000    0.000    0.000 sre_compile.py:474(isstring)
+        3    0.000    0.000    0.000    0.000 sre_compile.py:480(_code)
+        3    0.000    0.000    0.001    0.000 sre_compile.py:495(compile)
+       10    0.000    0.000    0.000    0.000 sre_parse.py:126(__len__)
+       16    0.000    0.000    0.000    0.000 sre_parse.py:130(__getitem__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:134(__setitem__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:138(append)
+      8/5    0.000    0.000    0.000    0.000 sre_parse.py:140(getwidth)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:178(__init__)
+       28    0.000    0.000    0.000    0.000 sre_parse.py:182(__next)
+       15    0.000    0.000    0.000    0.000 sre_parse.py:195(match)
+       21    0.000    0.000    0.000    0.000 sre_parse.py:201(get)
+      4/3    0.000    0.000    0.000    0.000 sre_parse.py:301(_parse_sub)
+      4/3    0.000    0.000    0.000    0.000 sre_parse.py:379(_parse)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:663(parse)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:67(__init__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:72(opengroup)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:83(closegroup)
+        6    0.000    0.000    0.000    0.000 sre_parse.py:90(__init__)
+        3    0.000    0.000    0.000    0.000 {_sre.compile}
+        3    0.000    0.000    0.000    0.000 {eval}
+       25    0.000    0.000    0.000    0.000 {isinstance}
+  112/109    0.000    0.000    0.000    0.000 {len}
+        8    0.000    0.000    0.000    0.000 {map}
+       74    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        6    0.000    0.000    0.000    0.000 {method 'findall' of '_sre.SRE_Pattern' objects}
+        9    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       19    0.000    0.000    0.000    0.000 {method 'isupper' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       22    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 {method 'split' of '_sre.SRE_Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'str' objects}
+       12    0.000    0.000    0.000    0.000 {min}
+        6    0.000    0.000    0.000    0.000 {ord}
+        4    0.000    0.000    0.000    0.000 {range}
+        2    0.000    0.000    0.000    0.000 {strop.maketrans}
+
+
